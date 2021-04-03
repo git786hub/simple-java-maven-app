@@ -3,7 +3,7 @@ pipeline {
   agent any
 
   environment {
-    registry = "docker.io/apulkit21/<image Name>"
+    registry = "docker.io/apulkit21/proj3"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
